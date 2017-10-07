@@ -34,3 +34,11 @@ input {
 .addOption {
   margin-top: 10px;
 }
+
+.resultSelection {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+}
