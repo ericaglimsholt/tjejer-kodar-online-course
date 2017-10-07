@@ -16,10 +16,31 @@
         <!-- Input field -->
         <input placeholder="Something">
       </div>
+      <div class="resultSelection">
+
+      </div>
       <!-- Button -->
       <button class="addOption">Add</button>
     </div>
     <!-- Button -->
     <button>Go!</button>
+
+    <!-- Include jQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <!-- Out Javascript -->
+    <script>
+    $(function() {
+      // Collect div .resultSelection. Sets div to display:none with hide()
+      $('.resultSelection').hide()
+      // Defines a variabel
+      var add_option = function() {
+        // Collect div .inputs. Append adds a input element
+        $('.inputs').append('<input></input>')
+      }
+      // Find .addOption. When found run add_option function
+      $('.addOption').click(add_option)
+    })
+    </script>
   </body>
 </html>
