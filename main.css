@@ -1,0 +1,31 @@
+body {
+  /* Flex help us to center our content */
+  display: flex; /* Defines that we are using Flex */
+  flex-direction: column; /* Defines the direction of the content */
+  justify-content: center; /* Center our content */
+
+  margin-top: 150px; /* Sets a margin to top */
+}
+
+h1 {
+  font-weight: lighter; /* Defines the weight of the typeface */
+  font-size: 40px; /* Defines font size */
+  letter-spacing: 2px; /* Defines how far it should be between the different letters */
+  margin-bottom: 0; /* Takes away the margin that is default for h1 */
+}
+
+/* . before to sellect a class */
+.inputSection {
+  margin: 50px 0px 80px 0px; /* Sets margin to top, right, bottom, left */
+  width: 400px; /* Sets width to div */
+}
+
+.inputs {
+  width: inherit; /* Defines that the width for .inputs should be equal to .inputSection */
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-top: 10px;
+}
