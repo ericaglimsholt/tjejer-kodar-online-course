@@ -2,7 +2,8 @@ body {
   /* Flex help us to center our content */
   display: flex; /* Defines that we are using Flex */
   flex-direction: column; /* Defines the direction of the content */
-  justify-content: center; /* Center our content */
+  justify-content: center; /* Center our content along the line */
+  align-items: center; /* Center our content in the cross-axis */
 
   margin-top: 150px; /* Sets a margin to top */
 }
